@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "command": "npm start",
+            "name": "Run npm start (Exp)",
+            "request": "launch",
+            "type": "node-terminal",
+            "cwd": "${workspaceFolder}/ExpApp"
+        },      
+
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        
+    ]
+}
